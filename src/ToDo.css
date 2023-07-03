@@ -1,0 +1,60 @@
+.task-list{
+    list-style: none;
+    padding: 0;
+}
+.task-list > li{
+    margin-bottom: 1vh;
+}
+
+.input-task{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-right: 2vw;
+    font-size: 1rem;
+}
+.submit-button {
+    margin-top: 1vh;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    transition: 0s background-color, 0s color;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.delete-button{
+    margin-top: 1vh;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: red;
+    background-color: rgb(244, 161, 161);
+    margin-left: 1vw;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+.delete-button:hover{
+    background-color: red;
+    color: rgb(244, 161, 161);
+}
